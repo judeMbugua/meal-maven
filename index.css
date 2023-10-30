@@ -390,3 +390,399 @@ a{
     background-color: rgb(0, 0, 0.1);
     color: wheat;
 }
+
+/*mobile phone*/
+@media (max-width: 320px){
+    a{
+        font-style: normal;
+        text-decoration: none;
+        color: black;
+    }
+    .top_container{
+    
+        
+        width: 100vw;
+        height: 2rem;
+        display:flex ;
+        align-items: flex-start;
+        background: rgba(170, 187, 97, 0.5);
+        background-size: cover;
+        mix-blend-mode: darken;
+        background-clip: border-box;
+        
+    }
+    #sign_up{
+        margin-top: 5px;
+        margin-left:10px;
+        font-size: 10px;
+        padding-inline-start: 4px;
+        padding-top: 5px;
+        width: 2.5rem;
+        height: 1rem;
+        background-color: rgb(73, 99, 147);
+        border-radius: 2px;
+    }
+    
+    
+    #tools{
+        margin-top: 5px;
+        margin-left:10px;
+        font-size: 10px;
+        padding-inline-start: 4px;
+        padding-top: 5px;
+        width: 2.5rem;
+        height: 1rem;
+        background-color: rgb(73, 99, 147);
+        border-radius: 2px;
+    }
+    
+    
+    #about{
+        margin-top: 5px;
+        margin-left:10px;
+        font-size: 10px;
+        padding-inline-start: 4px;
+        padding-top: 5px;
+        width:3rem;
+        height: 1rem;
+        background-color: rgb(73, 99, 147);
+        border-radius: 2px;
+    }
+    #email_icon{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 14rem; 
+        width: 1rem;
+        height: 1rem;
+    }
+    #email_icon_img{
+        width: 1.5rem;
+        height: 1.5rem;   
+    }
+    
+    #ig_icon{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 17rem; 
+        width: .4rem;
+        height: .4rem;
+    }
+    #ig_icon_img{
+        width: 1.5rem;
+        height: 1.5rem;   
+    }
+    .intro_container{
+        width: 100vw;
+        height: 12rem;
+        background-image: url(pics/nutrients.jpg);
+        background-size: cover;
+        
+    }
+    .big_text_container{
+        position: absolute;
+        width: 25rem;
+        height: 25rem;
+        
+        margin-left: 5rem;
+        margin-top: -4rem;
+    }
+    #big_text{
+        background: rgba(1,1,1,0.2);
+        width: max-content;
+        margin-top: 6rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+        color: black;
+        text-align: center;
+    }
+    #small_text{
+        background: rgba(1,1,1,0.2);
+        width: max-content;
+        text-align: center;
+        margin-left: -3rem;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    
+    }
+    #aside_text{
+        font-weight: 900;
+        background: rgba(1,1,1,0.2);
+        text-align: center;
+        margin-left: -14rem;
+        font-size: 1.1rem;
+        margin-top: 1.4rem;
+    }
+
+    #get_started{
+        width: 6rem;
+        height: 1.6rem;
+        background-color: rgba(1,1,1,0.2);
+        border-width: 5px;
+        border-style: none;
+        border-radius: 3rem;
+        font-weight: 900;
+        margin-left: 1rem;
+        margin-top: .6rem;
+        cursor: pointer;
+    }
+    #get_started:hover{
+        background-color: aqua;
+    }
+    .section_two{
+        margin-top: 45px;
+        width: 100vw;
+        height: fit-content;
+        margin-left: 2px;
+        background-color: rgb(78, 187, 147);
+        border-radius: 20px;
+        box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+    
+    
+    }
+    #sec_2_header{
+        position: absolute;
+        margin-top: -40px;
+        padding-bottom: 10px;
+        margin-left: 7rem;
+        font-size: 10px;
+        background: rgba(64, 73, 75, 0.2);
+        width: 3rem;
+        border-radius: 3rem;
+        padding-inline-start: 9px;
+        box-shadow: 2px 2px black;
+        background-color: azure;
+    }
+    .nutrition_container{
+        margin-top: 5px;
+        width: 100vw;
+        height: 17rem;
+        margin-left: 2px;
+        background-color: rgb(78, 187, 147);
+        border-radius: 20px;
+        box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+    
+    }
+    #nutrition_img{
+        width:18rem;
+        height: 10rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #nutrition_text{
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top:.1rem;
+        position: absolute;
+    }
+    #nutrition_btn{
+        width: 10rem;
+        height: 2.1rem;
+        background-color: rgba(1,1,1,0.3);
+        border-width: 5px;
+        border-style: none;
+        border-radius: 3rem;
+        font-weight: 900;
+        margin-left: 6rem;
+        margin-top: 2.7rem;
+        cursor: pointer;
+    }
+    #nutrition_btn:hover{
+        background-color: rgba(1,1,1,0.8);
+        color: blueviolet;
+    }
+    
+    .calories_container{
+        margin-top: 18rem;
+        width: 100vw;
+        height: 17rem;
+        margin-left: 2px;
+        background-color: rgb(78, 163, 187);
+        border-radius: 20px;
+        box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+    }
+    #calories_img{
+        width:18rem;
+        height: 10rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #calories_text{
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top:.4rem;
+        position: absolute;
+    }
+    #calories_btn{
+        width: 10rem;
+        height: 2.1rem;
+        background-color: rgba(1,1,1,0.3);
+        border-width: 5px;
+        border-style: none;
+        border-radius: 3rem;
+        font-weight: 900;
+        margin-left: 6rem;
+        margin-top: 2.7rem;
+        cursor: pointer;
+    }
+    #calories_btn:hover{
+        background-color: rgba(1,1,1,0.8);
+        color: blueviolet;
+    }
+    
+    .muscle_container{
+        margin-top: 36rem;
+        width: 100vw;
+        height: 17rem;
+        margin-left: 2px;
+        background-color: rgb(78, 163, 187);
+        border-radius: 20px;
+        box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+    }
+    #muscle_img{
+        width:18rem;
+        height: 10rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #muscle_text{
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top:.4rem;
+        position: absolute;
+    }
+    #muscle_btn{
+        width: 10rem;
+        height: 2.1rem;
+        background-color: rgba(1,1,1,0.3);
+        border-width: 5px;
+        border-style: none;
+        border-radius: 3rem;
+        font-weight: 900;
+        margin-left: 6rem;
+        margin-top: 2.7rem;
+        cursor: pointer;
+    }
+    #muscle_btn:hover{
+        background-color: rgba(1,1,1,0.8);
+        color: blueviolet;
+    }
+    
+
+    .section_three{
+        margin-top: 3rem;
+        width: 100vw;
+        margin-left: 0rem;
+        height: 30rem;
+        background-color: rgb(78, 187, 147);
+        border-radius: 2rem;
+        box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+    
+    
+    }
+    #sec_3_header{
+        position: absolute;
+        margin-top: 54rem;
+        padding: 10px;
+        margin-left: 4.5rem;
+        font-size: small;
+        background: rgba(64, 73, 75, 0.2);
+        width: 6rem;
+        border-radius: 3rem;
+        padding-inline-start: 50px;
+        box-shadow: 2px 2px black;
+        background-color: azure;
+    }
+    .about_section{
+        position: absolute;
+        width: 100vw;
+        height: fit-content;
+        background-color: rgb(20, 234, 234);
+        margin-top: 57rem;
+        margin-left: 0rem;
+        border-radius: 2rem;
+    }
+    #about_header{
+        position: relative;
+        margin-top: 1.0rem;
+        text-align: center;
+        font-size: 1rem;
+        font-style: italic;
+        font-family: cursive;
+    
+    }
+    #about_us_text{
+        line-height: 20px;
+        padding: 1rem;
+        font-size: small;
+    }
+    #judeLink{
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+    }
+    .contact_section{
+        position: absolute;
+        width: 100vw;
+        height: 15rem;
+        background-color: rgb(20, 234, 234);
+        margin-top: 74rem;
+        margin-left: 0rem;
+        border-radius: 2rem;
+    }
+    #contact_header{
+        position: relative;
+        margin-top: 1.0rem;
+        text-align: center;
+        font-size: 1rem;
+        font-style: italic;
+        font-family: cursive;
+    
+    }
+    #join_text{
+        line-height: 15px;
+        padding: 1rem;
+        font-size: .9rem;
+        text-align: center;
+    }
+    #name_input{
+        position: absolute;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        height: 1.4rem;
+        padding-right: 3.4rem;
+        padding-inline-start: 1rem;
+        border-radius: 0.5rem;
+    }
+    #email_input{
+        position: absolute;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        height: 1.4rem;
+        padding-right: 3.4rem;
+        padding-inline-start: 1rem;
+        border-radius: 0.5rem;
+    }
+    #submit_btn{
+        position: absolute;
+        margin-left: 6rem;
+        margin-top: 3.5rem;
+        height: 2rem;
+        width: 7rem; 
+        border-radius: 0.5rem;
+    }
+    #footer{
+        position: absolute;
+        margin-top: 7rem;
+        margin-left: 3rem;
+        font-size: 5px;
+        margin-top: 1;
+        background-color: rgb(0, 0, 0.1);
+        color: wheat;
+    }
+    
+    
+}
