@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calories calculator</title>
+    <link rel="stylesheet" href="calories.css">
+    
+</head>
+<body>
+<div class="head_div">
+    <a href="index.html" id="home_icon"><img id="home_icon_img" src="pics/homePage.png" alt="not found"></a>
+    <h2 id="head_text">Calories Calculator</h2>
+    <a href="index.html#section_three" id="email_icon"><img id="email_icon_img" src="pics/bigEmail.png" alt="not found"></a>
+    <a href="" id="ig_icon"><img id="ig_icon_img" src="pics/igBig.png" alt="not found"></a>
+</div>
+<div class="intro_container">
+    <div class="big_text_container">
+        <p id="big_text">Meal Maven</p>
+        <p id="small_text">Nourish your body, satisfy your soul</p>
+    </div>
+</div>
+<div class="content_box">
+    <p id="box_header">Get nutrional data on any food</p>
+    <input type="text" id="snack_entry" placeholder="Food/Snack">
+    <input type="text" id="quantity_entry" placeholder="Quantity (g)">
+    <select id="metric_entry">
+        <option value="grams">Grams</option>
+        <option value="kg">Kilograms</option>
+    </select>
+    <button id="get_btn" onclick="get()">Get</button>
+    <div class="results_holder">
+        <p id="calories_label">calories</p>
+        <input type="text" id="calories_entry" readonly>
+        <p id="fat_label">fat total</p>
+        <input type="text" id="fat_entry" readonly>
+        <p id="protein_label">protein</p>
+        <input type="text" id="protein_entry" readonly>
+        <p id="sugar_label">sugar</p>
+        <input type="text" id="sugar_entry" readonly>
+        <p id="chol_label">cholestral </p>
+        <input type="text" id="chol_entry" readonly>
+        <p id="carbo_label">carbohydrates </p>
+        <input type="text" id="carbo_entry" readonly>
+        <button id="clear_btn">clear</button>
+    </div>
+    <footer><p id="footer">Copyright © 2023 Meal Maven. All rights reserved. | Created by Jude Thaddeus | Privacy Policy | Terms and Conditions</p></footer> 
+</div>
+<script src="calories.js"></script>
+</body>
+</html>

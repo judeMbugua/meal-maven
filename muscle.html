@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Workout</title>
+    <link rel="stylesheet" href="muscle.css">
+    <script src="muscle.js"></script>
+</head>
+<body>
+    <div class="head_div">
+        <a href="index.html" id="home_icon"><img id="home_icon_img" src="pics/homePage.png" alt="not found"></a>
+        <h2 id="head_text">Muscles Workout</h2>
+        <a href="index.html#section_three" id="email_icon"><img id="email_icon_img" src="pics/bigEmail.png" alt="not found"></a>
+        <a href="" id="ig_icon"><img id="ig_icon_img" src="pics/igBig.png" alt="not found"></a>
+    </div>
+    <div class="intro_container">
+        <div class="big_text_container">
+            <p id="big_text">Meal Maven</p>
+            <p id="small_text">Nourish your body, satisfy your soul</p>
+        </div>
+    </div>
+    <div class="content_box">
+        <p id="box_header">Get workouts for each muscle group </p>
+        <select name="muscles" id="muscles_entry">
+            <option value="abdominals">abdominals</option>
+            <option value="abductors">abductors</option>
+            <option value="adductors">adductors</option>
+            <option value="biceps">biceps</option>
+            <option value="calves">calves</option>
+            <option value="chest">chest</option>
+            <option value="forearms">forearms</option>
+            <option value="glutes">glutes</option>
+            <option value="hamstrings">hamstrings</option>
+            <option value="lats">lats</option>
+            <option value="lower_back">lower back</option>
+            <option value="middle_back">middle back</option>
+            <option value="neck">neck</option>
+            <option value="quadriceps">quadriceps</option>
+            <option value="traps">traps</option>
+            <option value="triceps">triceps</option>
+        </select>
+        <button id="get_btn" onclick="getMuscles()">Get</button>
+        <p id="type_label">Exercise type</p>
+        <input type="text" id="type_entry" readonly>
+        <p id="diff_label">Exercise difficulty</p>
+        <input type="text" id="diff_entry" readonly>
+        <div class="inst_div">
+            <p id="inst_header">INSTRUCTIONS</p>
+            <textarea name="instructions" id="inst_holder" cols="30" rows="10" readonly></textarea>
+        </div>
+        <footer><p id="footer">Copyright © 2023 Meal Maven. All rights reserved. | Created by Jude Thaddeus | Privacy Policy | Terms and Conditions</p></footer> 
+    </div>  
+</body>
+</html>
+
+
+
+
+
+
+
+

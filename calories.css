@@ -1,0 +1,309 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+        
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+.head_div{
+    width: 100vw;
+    height: 6rem;
+    display:flex ;
+    align-items: flex-start;
+    background: rgba(170, 187, 97, 0.5);
+    background-size: cover;
+    mix-blend-mode: darken;
+    background-clip: border-box;
+}
+#home_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;  
+    margin-top: 2rem;
+    margin-left: 5rem; 
+}
+#head_text{
+    margin-left: 16rem;
+    margin-top: 1.7rem;
+    font-size: xx-large;
+    letter-spacing: .8rem;
+}
+#email_icon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 65rem; 
+    width: 1rem;
+    height: 1rem;
+}
+#email_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;   
+}
+
+#ig_icon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 70rem; 
+    width: .4rem;
+    height: .4rem;
+}
+#ig_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;   
+}
+.intro_container{
+    width: 100vw;
+    height: 42rem;
+    background-image: url(pics/calories.jpg);
+    background-size: cover;
+    background-position: 3rem,2rem;
+    
+}
+.big_text_container{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    margin-left: 27rem;
+    margin-top: -2rem;
+    
+}
+#big_text{
+    background: rgba(1,1,1,0.1);
+    width: max-content;
+    margin-top: 3rem;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: rgb(168, 157, 157);
+    text-align: center;
+    margin-left: -6rem;
+}
+#small_text{
+    background: rgba(230, 225, 225, 0.2);
+    width: max-content;
+    text-align: center;
+    margin-left: 3rem;
+    font-size: 1.7rem;
+    margin-top: .2rem;
+    font-weight: 500;
+    color: aliceblue;
+    
+
+}
+#aside_text{
+    font-weight: 900;
+    background: rgba(1,1,1,0.2);
+    text-align: center;
+    margin-left: 6rem;
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+}
+
+.content_box{
+    margin-top: -32rem;
+    width: 40rem;
+    height: 30rem;
+    background: rgba(62, 68, 74, 0.5);
+    position: absolute;
+    margin-left: 17rem;
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#box_header{
+    margin-top: 10px;
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(243, 249, 247);
+    margin-left: 8rem;
+    padding-inline-start: 6rem;
+    padding-top: 1rem;
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#snack_entry{
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+    width: 18rem;
+    height: 2.4rem;
+    padding-left: 10px;
+    border-radius: .5rem;
+
+}
+#quantity_entry{
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2.4rem;
+    padding-left: 10px;
+    border-radius: .5rem;
+
+}
+#metric_entry{
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2.4rem;
+    padding-left: 10px;
+    border-radius: .5rem;
+    display: none;
+
+
+}
+#get_btn{
+    margin-left: 16rem;
+    margin-top: 1.5rem;
+    width: 6rem;
+    height: 2.4rem;
+    
+    border-radius: .5rem 
+}
+#get_btn:hover{
+    background-color: rgb(20, 168, 22);
+    border-radius: 4rem;
+    scale: 1.1;
+
+}
+.results_holder{
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 37rem;
+    height: 15rem;
+    background: rgba(137, 128, 128, 0.2);
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#calories_label{
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: .7rem;
+    background-color: aliceblue;
+    width: 5rem;
+    padding-inline-start: 1.5rem;
+}
+#calories_entry{
+    margin-left: 1rem;
+    position: absolute;
+    margin-top: 2.5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+}
+#fat_label{
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: .7rem;
+    background-color: aliceblue;
+    width: 5rem;
+    padding-inline-start: 1.5rem;
+}
+#fat_entry{
+    text-align: center;
+    margin-left: 13rem;
+    position: absolute;
+    margin-top: 2.5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+#protein_label{
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: .7rem;
+    background-color: aliceblue;
+    width: 5rem;
+    padding-inline-start: 1.5rem;
+}
+#protein_entry{
+    text-align: center;
+    margin-left: 25rem;
+    position: absolute;
+    margin-top: 2.5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+#sugar_label{
+    position: absolute;
+    margin-left: 27rem;
+    margin-top: 8rem;
+    background-color: aliceblue;
+    width: 5rem;
+    padding-inline-start: 1.5rem;
+}
+#sugar_entry{
+    text-align: center;
+    margin-left: 25rem;
+    position: absolute;
+    margin-top: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+#chol_label{
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: 8rem;
+    background-color: aliceblue;
+    width: 5rem;
+    padding-inline-start: 1.5rem;
+    
+}
+#chol_entry{
+    text-align: center;
+    margin-left: 13rem;
+    position: absolute;
+    margin-top: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+#carbo_label{
+    
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 8rem;
+    background-color: aliceblue;
+    width: 8rem;
+    padding-inline-start: 1rem;
+
+
+    
+}
+#carbo_entry{
+    text-align: center;
+    margin-left: 1rem;
+    position: absolute;
+    margin-top: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+#clear_btn{
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: 13rem;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    display: none;
+    
+}
+#clear_btn:hover{
+    background-color: rgb(116, 198, 30);
+    color: aliceblue;
+}
+
+#footer{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -2rem;
+    width: max-content;
+    margin-top: 1;
+    background-color: rgb(0, 0, 0.1);
+    color: wheat;
+}

@@ -1,0 +1,212 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+        
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+.head_div{
+    width: 100vw;
+    height: 6rem;
+    display:flex ;
+    align-items: flex-start;
+    background: rgba(35, 196, 145, 0.5);
+    background-size: cover;
+    mix-blend-mode: darken;
+    background-clip: border-box;
+}
+#home_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;  
+    margin-top: 2rem;
+    margin-left: 5rem; 
+}
+#head_text{
+    margin-left: 16rem;
+    margin-top: 1.7rem;
+    font-size: xx-large;
+    letter-spacing: .8rem;
+}
+#email_icon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 65rem; 
+    width: 1rem;
+    height: 1rem;
+}
+#email_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;   
+}
+
+#ig_icon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 70rem; 
+    width: .4rem;
+    height: .4rem;
+}
+#ig_icon_img{
+    width: 2.7rem;
+    height: 2.7rem;   
+}
+.intro_container{
+    width: 100vw;
+    height: 55rem;
+    background-image: url(pics/muscle.jpg);
+    background-size: cover;
+    background-position: -1rem,2rem;
+    
+}
+.big_text_container{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    margin-left: 27rem;
+    margin-top: -2rem;
+    
+}
+#big_text{
+    background: rgba(1,1,1,0.1);
+    width: max-content;
+    margin-top: 3rem;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: rgb(54, 205, 13);
+    text-align: center;
+    margin-left: -6rem;
+}
+#small_text{
+    background: rgb(53, 47, 47);
+    width: max-content;
+    text-align: center;
+    margin-left: -2rem;
+    font-size: 2rem;
+    margin-top: .2rem;
+    font-weight: 500;
+    color: rgb(224, 221, 221);
+
+}
+.content_box{
+    margin-top: -43rem;
+    width: 40rem;
+    height: 40rem;
+    background: rgba(62, 68, 74, 0.5);
+    position: absolute;
+    margin-left: 17rem;
+    box-shadow: 0px 2px 2px 4px rgba(116, 114, 114, 0.5);
+}
+#box_header{
+    margin-top: 10px;
+    
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(243, 249, 247);
+    margin-left: 8rem;
+    padding-inline-start: 6rem;
+    padding-top: 1rem;
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#muscles_entry{
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    width: 18rem;
+    height: 2.4rem;
+    padding-left: 10px;
+    border-radius: .5rem;
+
+}
+#get_btn{
+    margin-left: 25rem;
+    margin-top: 4rem;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: .5rem 
+}
+#get_btn:hover{
+    background-color: rgb(20, 168, 22);
+
+}
+#type_label{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    width: 6rem;
+    padding-inline-start: 1.5rem;
+}
+#type_entry{
+    position: absolute;
+    margin-left: -22rem;
+    position: absolute;
+    margin-top: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+}
+#diff_label{
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    width: 8rem;
+    padding-inline-start: 1.5rem;
+}
+#diff_entry{
+    text-align: center;
+    position: absolute;
+    margin-left: -6rem;
+    position: absolute;
+    margin-top: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+}
+.inst_div{
+    margin-top: 9rem;
+    margin-left: 2rem;
+    width: 35rem;
+    height: 20rem;
+    background: rgba(62, 68, 74, 0.5);
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#inst_header{
+    position: absolute;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2rem;
+    background-color: rgb(243, 249, 247);
+    margin-left: 8rem;
+    padding-inline-start: 6rem;
+    padding-top: 1rem;
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#inst_holder{
+    margin-left: 1rem;
+    width: 33rem;
+    margin-top: 6rem;
+    height: 13rem;
+    padding-inline-start: 10px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    width: max-content;
+    margin-top: 1;
+    
+    color: rgb(234, 234, 234);
+}
